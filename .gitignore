@@ -1,0 +1,6 @@
+conexao = mysql.connector.connect(
+    host='localhost',
+    user='root',
+    password='00110011a',
+    database='bdpython'
+)

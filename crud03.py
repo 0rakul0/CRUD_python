@@ -60,6 +60,6 @@ def delet(del_name="del_name"):
 if __name__ == "__main__":
     cursor = conexao.cursor()
     #create(nome_produto="pera", create_valor=3.60, create_qte=7)
-    read()
+    #read()
     cursor.close()
     conexao.close()
