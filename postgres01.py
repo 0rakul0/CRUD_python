@@ -6,7 +6,7 @@ configuraçãoes do docker
 """
 host = 'localhost'
 user = 'postgres'
-password = 'sua senha'
+password='00110011a'
 database = 'postgres'
 port = '15432'
 
@@ -75,5 +75,6 @@ if __name__ == "__main__":
     cursor = conexao.cursor()
     # create_tabela()
     # create_produto(name="laranja", valor=5.4, quantidade=7)
+    print(find_all())
     cursor.close()
     conexao.close()
